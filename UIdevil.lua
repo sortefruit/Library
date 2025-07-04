@@ -1343,38 +1343,3 @@ function MakeWindow(Configs)
     })
   end
   
-
-  MinimizeButton({
-    Image = "rbxassetid://96879273042927",
-    Size = {40, 40},
-    Color = Color3.fromRGB(15, 15, 15),
-    Corner = true,
-    Stroke = true,
-    StrokeColor = Color3.fromRGB(15, 15, 15)
-  })
-end
-
-MakeWindow({
-  Hub = {
-    Title = "BetaX | Shadow hub",
-    Animation = "Jogos"
-  },
-  Key = {
-    KeySystem = false,
-    Title = "Key System",
-    Description = "kekekekek",
-    KeyLink = "kkk",
-    Keys = {"1234"},
-    Notifi = {
-      Notifications = true,
-      CorrectKey = "Running the Script...",
-      Incorrectkey = "The key is incorrect",
-      CopyKeyLink = "Copied to Clipboard"
-    }
-  }
-})
-
-local Main = MakeTab({Name = "Main"})
-
-local section = AddSection(Main, {" Boss"})
-
